@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+  }
+  
+  
+  .hero-image {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../images/background.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    font-size: 40px;
+    font-family: Arial;
+    text-align: center;
+    display: inline;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+  }
+  .hero-text h1
+ {
+  border-bottom: 2px solid white;
+  font-size: 90px;
+	text-align: center;
+ }
+
+ .hero-text h3
+ {
+   
+   color: white;
+   font-size: 40px;
+   font-family: cursive;
+ }
+ .hero-image a 
+ {
+  background-color: #164b18; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-family: sans-serif;
+  margin-top: 28%;
+  margin-right: 40px;
+  margin-left: 30px;
+}
+.btn
+{
+  margin-left: 280px;
+  
+}
+.blink
+{
+font-size: 25px;
+color: rgb(255, 0, 0);
+text-align: center;
+margin-top: 80px;
+}
+.container {
+  font-family: sans-serif;
+}
+h1 {
+  float:left;
+  text-align: center;
+  
+}
+.text-red {
+  color: red;
+}
+.blink {
+  animation: blinker 0.5s step-end infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.hero-image h4{
+  font-size: 25px;
+color: white;
+text-align: center;
+margin-top: 0;
+}
+.text
+{
+margin-left: 280px;
+}
