@@ -3,11 +3,8 @@
 <?php
 $dao=new DataAccess();
 ?>
-
 <?php include('ahead.php'); ?>
-
     <body>
-
    <div id="wrapper">
  <!-- MENU SECTION END-->
     <div class="content-wrapper">
@@ -17,11 +14,7 @@ $dao=new DataAccess();
                 <h4 class="header-line"> ELECTION CANDIDATES FINAL LIST</h4>
                 
                             </div>
-
         </div>  
-      
-      	
-                        
               <div class="row">
                 <div class="col-md-12">
                     <!-- Advanced Tables -->
@@ -32,11 +25,7 @@ $dao=new DataAccess();
                         <div class="panel-body">
                             <div class="table-responsive">
                             <br>
-                                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
-                               
-                        
-             
-                               
+                                <table class="table table-striped table-bordered table-hover" id="dataTables-example">               
                                     <thead>
                                         <tr>
                                          
@@ -48,13 +37,6 @@ $dao=new DataAccess();
                         <th>Reason</th>
                         <th> Image</th>
                         <th> Contact</th>
-                       
-                        
-                        
-                        
-                                           
-                                            
-                                            
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -92,11 +74,7 @@ $condition="c_status='ACCEPTED'";
                 </table>
             </div>    
 </div></div>    
-
-            
             </div>
-            
-            
             </div></div>
             
             </div>
@@ -116,5 +94,4 @@ $condition="c_status='ACCEPTED'";
            <hr>
              
 <?php include ('foot_ca.php')?>
-       
        
